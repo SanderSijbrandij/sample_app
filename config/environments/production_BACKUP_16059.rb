@@ -62,8 +62,11 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = true
 
   # Email stuff
+<<<<<<< HEAD
   config.action_mailer.delivery_method = :smtp
-
+=======
+  config.action_mailer.delivey_method = :smtp
+>>>>>>> 5704716c91b8310c097e234f6122705bc11d1860
   host = 'salty-temple-43894.herokuapp.com'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
